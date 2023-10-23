@@ -69,7 +69,6 @@ function initCaptureDevice() {
 }
 
 function setupState1() {
-  // Your state 1 setup code
     initCaptureDevice(); 
     gfx = createGraphics(asciiart_width, asciiart_height);
     gfx.pixelDensity(1);
@@ -105,7 +104,6 @@ function drawState1() {
 }
 
 function setupState2() {
-  // Your state 2 setup code
   pixelDensity(1);
   video = createCapture(VIDEO);
   video.size(width / vScale, height / vScale);
@@ -137,7 +135,6 @@ function setupState3() {
   dheight = 600;
   createCanvas(600, 600);
 
-  // VIDEO
   capture = createCapture(VIDEO);
   capture.size(dwidth, dheight);
   capture.hide();
